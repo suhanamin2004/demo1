@@ -41,7 +41,7 @@ setmodel(e.target.value)
            <input type="number" value={caryear} onChange={yearchange} /><br></br>
            <input type="text" value={carmake}  onChange={makechange}/><br></br>
            <input type="text" value={carmodel}  onChange={modelchange} /><br></br>
-           <button onClick={add}>Submit</button>
+           <button onClick={add}>Submit Button</button>
 
         </div>
     )
